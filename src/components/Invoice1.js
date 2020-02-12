@@ -78,8 +78,8 @@ const Invoice1 = props => (
            <View style={styles.textInputWrapper}>
              <Text style={styles.textDescriprion}>Programme</Text>
              <TextInput style={styles.textInput}   onChangeText={handleChange('programme')}
-          onBlur={handleBlur('programme')}
-          value={values.programme}/>
+             onBlur={handleBlur('programme')}
+             value={values.programme}/>
              
            </View>
            <View style={styles.textInputWrapper}>
